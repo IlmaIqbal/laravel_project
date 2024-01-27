@@ -22,6 +22,18 @@ class StudentController extends Controller
         return response()->json($data, 200);
     }
 
+    // public function upload(Request $request)
+    // {
+
+    //     $data = $request->validate([
+    //         'title' => 'required',
+    //         'name' => 'required',
+    //     ]);
+
+    //     $newStudent = Student::create($data);
+
+    //     return ($newStudent);
+    // }
     public function upload(Request $request)
     {
 
